@@ -1,0 +1,142 @@
+body{
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+}
+
+.tanker{
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+}
+
+.centered_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shopc{
+  width: 250px;
+  height: 250px;
+}
+
+.explorew{
+  width: 250px;
+  height: 250px;
+}
+
+.playc{
+  width: 350px;
+  height: 250px;
+}
+
+.play{
+  text-align: center;
+  font-size: 50px;
+  color: lightgray;
+  border: solid black 7px;
+  margin: 25px;
+}
+
+.shop{
+  text-align: center;
+  font-size: 50px;
+  color: lightgray;
+  border: solid black 7px;
+  margin: 25px;
+}
+
+.explore{
+  text-align: center;
+  font-size: 50px;
+  color: lightgray;
+  border: solid black 7px;
+  margin: 25px;
+}
+
+.tab{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(17, 20, 53);
+  position: absolute;
+}
+
+.tab_down{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(17, 20, 53);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.buttons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+button{
+  background-color: rgb(92, 101, 197);
+  border-radius: 5px;
+  margin-right: 25px;
+  width: 100px;
+  height: 25px;
+}
+
+.main{
+  color: rgb(49, 180, 180);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.minor{
+  color: rgb(49, 180, 180);
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  .play,
+  .shop,
+  .explore {
+    font-size: 2.5vw;
+    border: solid black 1.5vw;
+    margin: 1.5vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .play,
+  .shop,
+  .explore {
+    font-size: 2vw;
+    border: solid black 1vw;
+    margin: 1vw;
+  }
+}
